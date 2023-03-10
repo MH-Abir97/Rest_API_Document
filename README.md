@@ -3,9 +3,10 @@
  # Guiding Principles of REST
  
  1. Uniform Interface: This principle involves defining a uniform interface for communication between the client and server. The interface should be simple and consistent across all resources. It should also provide the ability to manipulate resources through representations, with metadata to describe the resource.
+ 
  2. Client-Server Architecture: This principle involves separating the client and server components, allowing them to evolve independently. The client sends requests to the server, and the server returns responses to the client.
 
- 3.Statelessness: In REST, the server does not store any client context between requests. Each request from the client must contain all the necessary information required to understand the request, meaning that each request is independent of any previous requests.
+ 3. Statelessness: In REST, the server does not store any client context between requests. Each request from the client must contain all the necessary   information required to understand the request, meaning that each request is independent of any previous requests.
 
  4. Cacheability: Caching improves network efficiency and reduces server load by allowing clients to cache responses. The server must indicate which responses are cacheable, and the client must enforce cache validation.
 
