@@ -1,5 +1,7 @@
 # Rest Full API
+## What is Rest Full API
 
+REST is an acronym for REpresentational State Transfer and an architectural style for distributed hypermedia systems. Roy Fielding first presented it in 2000 in his famous dissertation.
  # Guiding Principles of REST
  
  1. Uniform Interface: This principle involves defining a uniform interface for communication between the client and server. The interface should be simple and consistent across all resources. It should also provide the ability to manipulate resources through representations, with metadata to describe the resource.
